@@ -6,7 +6,7 @@ from flaskext.mysql import MySQL
 app = Flask(__name__)
 
 # Configure mysql database
-app.config['MYSQL_DATABASE_HOST'] = 'ozgur-database.caj9cwungfjp.us-east-1.rds.amazonaws.com'
+app.config['MYSQL_DATABASE_HOST'] = 'ozgur-database-1.caj9cwungfjp.us-east-1.rds.amazonaws.com'
 app.config['MYSQL_DATABASE_USER'] = 'admin'
 app.config['MYSQL_DATABASE_PASSWORD'] = 'Clarusway_1'
 app.config['MYSQL_DATABASE_DB'] = 'clarusway'
@@ -35,7 +35,7 @@ VALUES
     ("Beyza", "beyza@google.com"),
     ("Oguzhan", "oguzhan@bmw.com"),
     ("Cemile", "cemile@mercedes.com"),
-    ("Halil", "halil@porche.com"),
+    ("Halil", "halil@porsche.com"),
     ("Melek", "melek@tesla.com"),
     ("Yakup", "yakup@samsung.com"),
     ("Ozgur", "ozgur@samsung.com"),
